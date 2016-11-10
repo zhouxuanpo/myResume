@@ -184,15 +184,6 @@
 
 	</a>
 
-	<a href="javascript:void(0)" class="musicBtn musicAni" id="musicBtn">
-		<audio src="http://ogdjvjy76.bkt.clouddn.com/gaibianziji.mp3" id="music" autoplay>
-			您的浏览器不支持HTML5 audio
-		</audio>
-		<img width="100%" src="http://ogdjvjy76.bkt.clouddn.com/musicIcon.png" alt="">
-
-	</a>
-
-
 
 	<script type="text/javascript" src="js/zepto.min.js"></script>
 	<script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script>
@@ -217,31 +208,6 @@
 			})
 
 		})
-
-
-
-		window.onload=function(){
-
-			var music = document.getElementById("music")
-			var musicBtn = document.getElementById("musicBtn")
-			var flag = true;
-
-
-			//播放按钮
-			musicBtn.addEventListener("click",function(e){
-				if (flag){
-					music.play()
-
-				}else{
-					music.pause();
-
-				}
-				flag = !flag;
-
-			},false)
-
-
-		}
 	</script>
 </body>
 </html>

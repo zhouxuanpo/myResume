@@ -1,4 +1,3 @@
-
 		html,body {
 			width: 100%;
 			height: 100%;
@@ -9,7 +8,7 @@
 			font-size: 10px;
 			font-family: "微软雅黑","宋体",arial,sans-serif;
 		}
-		
+
 		.swiper-container {
 			position: relative;
 			width: 100%;
@@ -52,7 +51,7 @@
 		.page1 .firstTxt {
 			float: left;
 			position: relative;
-			margin-top: 100px;
+			margin-top: 35px;
 			width: 100%;
 			height: 56px;
 		}
@@ -207,7 +206,7 @@
 		.page4 .smallPeople img{
 			width: 100%;
 		}
-		
+
 		.page4 .page4-jineng {
 			position: absolute;
 			top: 8%;
@@ -308,7 +307,7 @@
 			margin-left: 4%;
 			display: block;
 			width: 80px;
-			
+
 		}
 		.page5 .page5-ul .rightLine {
 			position: relative;
@@ -489,17 +488,53 @@
 			display: none;
 		}
 
-		a.musicBtn {
-			display: block;
-			width: 44px;
-			height: 44px;
-			position: fixed;
-			right: 10px;
-			top:10px;
-			z-index: 999;
-		}
-
 		.musicAni {
 			animation: musicRotate 1.3s linear infinite;
 			-webkit-animation: musicRotate 1.3s linear infinite;
+		}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------媒介查询-----------------------------------*/
+
+
+		@media only screen and (max-width: 360px) {
+
+			.page2 {
+				font-size: 1.2rem;
+			}
+			.page3 .jieshao {
+				font-size: 1.2rem;
+			}
+			.page4 .page4-bottomTxt {
+				font-size: 1.2rem;
+			}
+			.page4 .page4-bottomTxt span{
+				font-size: 1.4rem;
+			}
+			.page4 .page4-bottomTxt {
+				bottom: 2%;
+			}
+			.page5 .page5-jineng {
+				top: 1%;
+			}
+			.page5 .page5-ul {
+				font-size: 1.5rem;
+			}
+			.page6 .page6-left {
+				font-size: 3rem;
+			}
+			.page6 .page6-bottom {
+				font-size: 1.9rem;
+			}
+			.page7-bottom .page7-small {
+				margin-bottom: 8%;
+			}
 		}
